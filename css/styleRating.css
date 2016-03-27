@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    
+}
+
+.geen {
+    
+ width: 49px;
+    height: 47px;
+    display: inline-block;
+    background-image: url(http://20803.hosts.ma-cloud.nl/bewijzenmap/periode%203/sterLeeg.png);
+    
+}
+
+.geen:hover {
+    
+ cursor: pointer;
+   
+    background-image: url(http://20803.hosts.ma-cloud.nl/bewijzenmap/periode%203/sterLeegBack.png);
+    
+}
+
+
+.geen span {
+ width: 0px;
+    height: 47px;
+    display: inline-block;
+   background-image:url(http://20803.hosts.ma-cloud.nl/bewijzenmap/periode%203/sterVol.png);
+}
+
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
